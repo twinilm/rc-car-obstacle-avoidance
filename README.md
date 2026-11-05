@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Autonomous RC Car Simulator
 
 An interactive, browser-based 3D simulation and virtual test track for autonomous RC vehicle exploration. Built with Three.js and Vite.
@@ -156,3 +157,7 @@ The project is preconfigured for static hosting such as GitHub Pages. The Vite c
 ## License
 
 MIT
+=======
+# rc-car-obstacle-avoidance
+An Arduino-based RC car that detects obstacles using an ultrasonic sensor and automatically avoids collisions
+>>>>>>> 24b3b26a73b9c6ada77563b890d3b694f8fdf1b0
