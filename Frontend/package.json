@@ -1,0 +1,19 @@
+{
+  "name": "autonomous-rc-car-simulator-frontend",
+  "version": "1.0.0",
+  "description": "Autonomous RC Car 3D Simulator frontend built with Three.js and Vite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/simulator/roads.test.js src/simulator/vehicle.test.js src/simulator/autopilot.test.js src/simulator/surfaceConditions.test.js src/simulator/sensors.test.js src/services/backendClient.test.js src/simulator.test.js"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  }
+}
